@@ -1,0 +1,18 @@
+
+server:
+  port: 8081
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    pool:
+      max-active: 200
+      max-wait: -1
+      max-idle: 8
+      min-idle: 0
+    timeout: 0
+    database: 0
+my:
+  name: forezp
+  age: 12
